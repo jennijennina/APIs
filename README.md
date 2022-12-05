@@ -23,9 +23,10 @@ Die Elemente in deinem HTML sollten dann so aussehen:
 
 ## 💡 Assets
 
-```Verwende dafür:
-einen Loop
-appendChild
+```
+Verwende dafür:
+- einen Loop
+- appendChild
 
 Gib dem img-Tag in deinem CSS eine Breite von 50%, damit das Ganze nicht zu unübersichtlich wird. 😉
 
