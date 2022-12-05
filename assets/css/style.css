@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato"), local("Lato-Regular"), url(../fonts/Lato/Lato-Regular.ttf) format("truetype");
+}
+:root {
+  --primary-color: #21272d;
+  --secondary-color: cornflowerblue;
+  --third-color: cornflowerblue;
+  --fourth-color: rgba(177, 247, 244, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  --fifth-color: cornflowerblue;
+}
+
+.dark_mode {
+  --primary-color: #fff;
+  --secondary-color: greenyellow;
+  --third-color: greenyellow;
+  --fourth-color: salmon;
+  --fifth-color: #000;
+  --seventh-color: #af99f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: hsl(251deg, 70%, 55%);
+  background-image: radial-gradient(at 89% 14%, hsl(163deg, 81%, 50%) 0px, transparent 50%), radial-gradient(at 11% 15%, hsl(163deg, 82%, 50%) 0px, transparent 50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#nameIt {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px blanchedalmond;
+}
+
+#nameIt {
+  font-family: "Lato";
+  color: var(--fifth-color);
+  text-align: center;
+  margin-top: 50px;
+  font-size: 32px;
+}
+
+#nameItSection {
+  border-radius: 10px;
+  height: 100%;
+  width: 90%;
+  border: 3px solid var(--third-color);
+  position: relative;
+  margin: 5% auto;
+  padding: 5px;
+  background-color: var(--fourth-color);
+}
+
+.darkModeButton {
+  height: 25px;
+  width: 120px;
+  margin: 15px auto;
+  display: block;
+  background: var(--secondary-color);
+  color: var(--sixth-color);
+  border: none;
+  border-radius: 100px;
+  transition: 100px ease;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+h1 {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* ========= AB HIER AUFGABE ========= *//*# sourceMappingURL=style.css.map */
