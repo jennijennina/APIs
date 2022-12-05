@@ -23,7 +23,7 @@ Die Elemente in deinem HTML sollten dann so aussehen:
 
 ## 💡 Assets
 
-```erwende dafür:
+```Verwende dafür:
 einen Loop
 appendChild
 
@@ -37,7 +37,7 @@ Gib dem img-Tag in deinem CSS eine Breite von 50%, damit das Ganze nicht zu unü
 
 ## 💻 Running
 
-Zur Seite —> - [Lev2_1_API_fetch() - Daten weiter verarbeiten](https://mukkez.github.io/Bootcamp/tasks/Day_39/Lev3_6_Project_css-vertiefung_the-design-shop/)
+Zur Seite —> - [Lev2_1_API_fetch() - Daten weiter verarbeiten](https://jennijennina.github.io/APIs)
 
 <p align="left">
 </p>
