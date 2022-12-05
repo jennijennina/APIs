@@ -26,6 +26,6 @@ fetch("https://picsum.photos/v2/list")
       newCaption.textContent = e.author;
       newFigure.appendChild(newImage);
       newFigure.appendChild(newCaption);
-      div.appendChild(newFigure);
+      container.appendChild(newFigure);
     });
   });
